@@ -28,7 +28,7 @@ class Timmer extends React.Component {
 
             this.setState(prevState => ({
               level: this.props.level,
-              seconds: prevState.seconds + 20
+              seconds: prevState.seconds + 1
             }));
             
             this.props.setTimeChanged(this.state.seconds);

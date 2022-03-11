@@ -5,7 +5,7 @@ export const PRIMES_NUMBERS = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 4
  * Get a random symbol (+ , - , / , *)
  */
 const getRandomSymbol = () => {
-    const symbols = ["+", "-"]; // Adding another "addition" at the end to grow the posibilities.
+    const symbols = ["+", "+"]; // Adding another "addition" at the end to grow the posibilities.
     var min = 0;
     var max = symbols.length - 1;
     var random = Math.round(Math.random() * (+max - +min) + +min);
@@ -63,7 +63,7 @@ export const evaluate = (symbol, prev) => {
  * @param {number} range 
  */
 const getRandomNumber = range => {
-    return (Math.random() * (range || 10)).toFixed()
+    return (Math.random() * (range || 5)).toFixed()
 }
 
 
