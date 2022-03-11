@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/testiq/static/js/2.d8dd5657.chunk.js"
   },
   {
-    "revision": "321fd2adbe3367e920900c0fb03d3b51",
+    "revision": "77a4244dea28f75bb1470404caef0913",
     "url": "/testiq/index.html"
   }
 ];
