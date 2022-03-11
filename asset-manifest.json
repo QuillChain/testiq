@@ -1,13 +1,13 @@
 {
   "main.css": "/testiq/static/css/main.86b22fb0.chunk.css",
-  "main.js": "/testiq/static/js/main.ab883d1f.chunk.js",
-  "main.js.map": "/testiq/static/js/main.ab883d1f.chunk.js.map",
+  "main.js": "/testiq/static/js/main.fdd80a39.chunk.js",
+  "main.js.map": "/testiq/static/js/main.fdd80a39.chunk.js.map",
   "runtime~main.js": "/testiq/static/js/runtime~main.9bf1cfed.js",
   "runtime~main.js.map": "/testiq/static/js/runtime~main.9bf1cfed.js.map",
   "static/js/2.d8dd5657.chunk.js": "/testiq/static/js/2.d8dd5657.chunk.js",
   "static/js/2.d8dd5657.chunk.js.map": "/testiq/static/js/2.d8dd5657.chunk.js.map",
   "index.html": "/testiq/index.html",
-  "precache-manifest.30480032a69e12767fa28ed38d9c6e62.js": "/testiq/precache-manifest.30480032a69e12767fa28ed38d9c6e62.js",
+  "precache-manifest.1ba0a38254f65f1abe6ff037981e2009.js": "/testiq/precache-manifest.1ba0a38254f65f1abe6ff037981e2009.js",
   "service-worker.js": "/testiq/service-worker.js",
   "static/css/main.86b22fb0.chunk.css.map": "/testiq/static/css/main.86b22fb0.chunk.css.map"
 }
