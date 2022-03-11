@@ -2,7 +2,7 @@
   "name": "math-app",
   "version": "0.8.0",
   "private": true,
-  "homepage": "https://ogaston.github.io/math-game",
+  "homepage": "https://quillchain.github.io/testiq",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "moment": "^2.24.0",
