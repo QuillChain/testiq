@@ -30,11 +30,11 @@ class Done extends React.Component {
     const { divider, buttonRetry, otherButton, poinstStyle } = style;
     return (
       <div>
-        <h1>GAME OVER</h1>
-        <hr style={divider} />
-        <h3>
+        <h2>
           FINAL SCORE <b style={poinstStyle}>{this.props.points}</b>
-        </h3>
+        </h2>
+        <hr style={divider} />
+        <h1>Well Done!</h1>
         <br />
         <h3 style={buttonRetry} onClick={this.props.retryGame}>
           RETRY

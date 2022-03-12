@@ -54,7 +54,7 @@ export const evaluate = (symbol, prev) => {
     }
 
     // Others
-    return () => getRandomNumber(10)
+    return () => getRandomNumber(20)
 }
 
 /**
@@ -63,7 +63,7 @@ export const evaluate = (symbol, prev) => {
  * @param {number} range 
  */
 const getRandomNumber = range => {
-    return (Math.random() * (range || 5)).toFixed()
+    return (Math.random() * (range || 15)).toFixed()
 }
 
 
