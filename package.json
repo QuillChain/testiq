@@ -2,7 +2,7 @@
   "name": "iqtestfree",
   "version": "1.2.3",
   "private": true,
-  "homepage": "http://quillchain.github.io/testiq",
+  "homepage": "http://quillchain.github.io",
   "dependencies": {
     "moment": "^2.24.0",
     "react": "^16.9.0",
