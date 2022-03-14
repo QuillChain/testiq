@@ -27,11 +27,12 @@ class Start extends React.Component {
                     <h3>Test Your</h3>     
                     <h1>IQ?</h1>
                 </div>
-                <Input text="Insert your name" onInputChange={this.setNameOfPlayer} />
+                {/* <Input text="Insert your name" onInputChange={this.setNameOfPlayer} /> */}
                 <p>
                     Press to start the game
                 </p>
-                <Button isClicked={this.clicked}>Start</Button>
+                <Button isClicked={this.clicked}>Easy</Button>
+                <Button isClicked={this.clicked}>Hard</Button>
             </div>
         )
     }
