@@ -6,6 +6,7 @@ import MathQuiz from './containers/MathQuiz';
 import './App.css';
 import Footer from './components/Footer';
 
+
 class App extends Component {
   
 
@@ -15,7 +16,9 @@ class App extends Component {
   
   render() {
     return (
-      <div className="App">
+      <div className="App"  style={{ 
+        backgroundImage: `url("https://i.imgur.com/CswwEes.jpg")` 
+      }} >
         <header className="App-header">
           {
             !this.props.isStarted ? (
