@@ -127,6 +127,7 @@ class Quiz extends React.Component {
                 type="number"
                 placeholder="Answer"
                 onKeyUp={this.keyingUp}
+                pattern="\\d*"
               />
             </div>
           )}
