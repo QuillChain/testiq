@@ -13,7 +13,7 @@ import {
 const initialState = {
   points: 0,
   lifes: 1,
-  seconds: 2000,
+  seconds: 999,
   level: 1,
   isFinished: false,
   isStarted: false

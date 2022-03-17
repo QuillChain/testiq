@@ -37,10 +37,10 @@ class Done extends React.Component {
         <h1>Well Done!</h1>
         <br />
         <h3 style={buttonRetry} onClick={this.props.retryGame}>
-          RETRY
+            Play Again
         </h3>
         <h5 style={otherButton} onClick={this.props.onReStartGame}>
-          Another player
+          Select Level
         </h5>
         {this.children}
       </div>
