@@ -13,7 +13,7 @@ import {
 const initialState = {
   points: 0,
   lifes: 1,
-  seconds: 999,
+  seconds: 10,
   level: 1,
   isFinished: false,
   isStarted: false
@@ -48,8 +48,8 @@ export const answerQuiz = (state = initialState, action = {}) => {
     case RESTART_GAME:
       return Object.assign({}, state, {
         points: 0,
-        lifes: 3,
-        seconds: 20,
+        lifes: 1,
+        seconds: 10,
         level: 1,
         isFinished: false
       });
@@ -64,8 +64,8 @@ export const answerQuiz = (state = initialState, action = {}) => {
     case REBOOT_GAME:
       return Object.assign({}, state, {
         points: 0,
-        lifes: 3,
-        seconds: 20,
+        lifes: 1,
+        seconds: 10,
         level: 1,
         isFinished: false,
         isStarted: false
