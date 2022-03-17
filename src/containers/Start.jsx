@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../components/Button';
 import Input from '../components/Input';
 import { Session } from '../utils/storage'
+import { BiCool,BiLaugh } from "react-icons/bi";
 
 class Start extends React.Component {
 
@@ -33,8 +34,8 @@ class Start extends React.Component {
                 <p>
                     Press to start the game
                 </p>
-                <Button isClicked={this.clicked}>Easy</Button>
-                <Button isClicked={this.clicked}>Hard</Button>
+                <Button isClicked={this.clicked}><BiLaugh/> Easy</Button>
+                <Button isClicked={this.clicked}><BiCool/> Hard</Button>
             </div>
         )
     }

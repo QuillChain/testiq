@@ -1,6 +1,8 @@
 import React from "react";
 import AnswerModal from "./AnswerModal";
 import { MathHelper } from "../utils";
+import { BiSubdirectoryLeft } from "react-icons/bi";
+
 
 class Quiz extends React.Component {
   _isMounted = false;
@@ -125,10 +127,11 @@ class Quiz extends React.Component {
                 }}
                 className="App-input"
                 type="number"
-                placeholder="Answer"
+                placeholder='..answer'
                 onKeyUp={this.keyingUp}
                 pattern="\\d*"
               />
+              <p> Press enter to answer <BiSubdirectoryLeft/></p>
             </div>
           )}
         </div>
