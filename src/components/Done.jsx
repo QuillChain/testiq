@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types'
-import { BiShuffle,BiRepost } from "react-icons/bi";
+import { BiShuffle, BiRepost } from "react-icons/bi";
 const style = {
   buttonRetry: {
     fontSize: "1.5em",
@@ -31,17 +31,25 @@ class Done extends React.Component {
     return (
       <div>
         <h2>
-          FINAL SCORE <b style={poinstStyle}>{this.props.points}</b>
+          YOUR IQ SCORE <b style={poinstStyle}>{this.props.points}</b>
         </h2>
         <hr style={divider} />
-        <h3>Well Done!</h3>
-        <br />
-        <h1 style={buttonRetry} onClick={this.props.retryGame}>
-           <BiRepost/> Play Again
-        </h1>
+        <h3>IQ Score Ranges:</h3>
+        <p>
+          130++ :	Genius
+        </p>
+        <p>
+          111-130: Smart People
+        </p>
+        <p>
+          90-110:	Normal Person
+        </p>
         <hr style={divider} />
+        <h1 style={buttonRetry} onClick={this.props.retryGame}>
+          <BiRepost /> Play Again
+        </h1>
         <h5 style={otherButton} onClick={this.props.onReStartGame}>
-          <BiShuffle/> Select Level
+          <BiShuffle /> Select Level
         </h5>
         {this.children}
       </div>

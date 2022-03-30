@@ -10,7 +10,7 @@ import {
 } from "../constants/index";
 
 export const correctAnswer = () => (dispatch) => {
-    dispatch({ type: CORRECT_ANSWER, payload: { points: 100, level: 1} });
+    dispatch({ type: CORRECT_ANSWER, payload: { points: 10, level: 1} });
     
 };
 

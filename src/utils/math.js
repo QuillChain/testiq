@@ -63,7 +63,7 @@ export const evaluate = (symbol, prev) => {
  * @param {number} range 
  */
 const getRandomNumber = range => {
-    return (Math.random() * (range || 15)).toFixed()
+    return (Math.random() * (range || 20)).toFixed()
 }
 
 
@@ -74,7 +74,7 @@ const getRandomNumber = range => {
  */
 const generateProblem = (points) => {
 
-    const lv = parseInt(((points/100) /5) + 1)
+    const lv = parseInt(((points/5) /5) + 1)
     let prevNum =  getRandomNumber();
     let problem = prevNum
 

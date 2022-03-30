@@ -24,7 +24,7 @@ class Start extends React.Component {
             <div>
                 <div className="App-brandname">
                     <i className="fas fa-graduation-cap"></i>
-                    <h1>IQ Test Free
+                    <h1>IQ UP TO 
                     </h1>
                     <h3>
                         IQ Booster Game
