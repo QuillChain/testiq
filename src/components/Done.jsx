@@ -36,13 +36,13 @@ class Done extends React.Component {
         <hr style={divider} />
         <h3>IQ Score Ranges:</h3>
         <p>
-          130++ :	Genius
+          151++ :	Genius
         </p>
         <p>
-          111-130: Smart People
+          121-150: Smart People
         </p>
         <p>
-          90-110:	Normal Person
+          100-120:	Normal Person
         </p>
         <hr style={divider} />
         <h1 style={buttonRetry} onClick={this.props.retryGame}>
