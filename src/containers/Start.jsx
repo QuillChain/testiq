@@ -24,10 +24,10 @@ class Start extends React.Component {
             <div>
                 <div className="App-brandname">
                     <i className="fas fa-graduation-cap"></i>
-                    <h1>IQ UP TO 
+                    <h1>IQ WILL UP TO 200+
                     </h1>
                     <h3>
-                        IQ Booster Game
+                    JUST BY PLAY IQ BOOSTER GAME
                         </h3>    
                 </div>
                 {/* <Input text="Insert your name" onInputChange={this.setNameOfPlayer} /> */}

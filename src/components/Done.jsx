@@ -45,6 +45,9 @@ class Done extends React.Component {
           100-120:	Normal Person
         </p>
         <hr style={divider} />
+        <p>
+        IQ WILL UP TO 200+ JUST BY PLAY 
+        </p>
         <h1 style={buttonRetry} onClick={this.props.retryGame}>
           <BiRepost /> Play Again
         </h1>

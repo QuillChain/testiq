@@ -4,6 +4,9 @@ export default function Footer() {
   return (
     <footer className="App-footer">
       <small>
+        <p>
+        IQ WILL UP TO 200+ JUST BY PLAY 
+        </p>
         <a href="https://fb.com/iquptocom/" rel="noopener noreferrer" target="_blank">iQUpTo Championship </a>
         <br />
         <a href="https://iqupto.com/" rel="noopener noreferrer" target="_blank">iQUpTo.Com </a>

@@ -38,6 +38,9 @@ class Beginning extends React.Component {
   render() {
     return (
       <div>
+        <p>
+        IQ WILL UP TO 200+ JUST BY PLAY
+        </p>
         <h3>GET READY...</h3>
         <h1>{this.state.msg}</h1>
       </div>
